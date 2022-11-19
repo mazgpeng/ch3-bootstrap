@@ -66,6 +66,7 @@
 }
 
 @media (max-width: 768px) {
+
   nav,
   .navbar-nav {
     background-color: rgb(0, 0, 0);
@@ -85,7 +86,7 @@
     align-content: space-around;
   }
 
-  .topscores_Cards > .row {
+  .topscores_Cards>.row {
     justify-content: unset;
   }
 
@@ -154,7 +155,7 @@
 }
 
 @media (max-width: 400px) {
-  .hero_Title > h1 {
+  .hero_Title>h1 {
     font-size: 3.5rem;
   }
 
