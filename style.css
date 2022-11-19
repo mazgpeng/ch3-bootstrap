@@ -1,0 +1,212 @@
+/* navbar */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    width: 20%;
+}
+
+.nav_text a {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.nav_text li:hover {
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+}
+
+.me-auto {
+    margin-right: auto !important;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul.nav-nav {
+    font-size: 20px;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+    font-family: "Bebas Neue";
+}
+
+h1 {
+    font-size: 80px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+
+/* Hero Main */
+main {
+    display: grid;
+    grid-template-rows: repeat(5, minmax(100vh, 100vh));
+}
+
+.cover_Background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080a0b;
+}
+
+.cover_Shadow {
+    box-shadow: inset 0px 0px 91px 18px rgba(0, 0, 0, 1);
+}
+
+.hero_Section {
+    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
+            rgba(255, 181, 72, 0) 0%,
+            rgba(52, 44, 29, 0.80319) 73.22%,
+            #08090A 99.74%),
+        url("/Coding/Challenge1/assets/main-bc.jpg");
+    display: grid;
+    grid-template-rows: 11fr 1fr;
+}
+
+.hero_Title h1 {
+    line-height: 83px;
+    letter-spacing: 3px;
+}
+
+.hero_Desc {
+    margin: 70px 0;
+}
+
+.hero_Button {
+    width: 260px;
+    margin-top: 70px;
+}
+
+.hero_Button button {
+    background: linear-gradient(194.68deg, #ffb548 11.27%, var(--orange) 90.4%);
+    padding: 0;
+    width: 100%;
+}
+
+.hero_Button>button>a {
+    display: block;
+    padding: 14.4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black !important;
+}
+
+.hero_Button>button:active {
+    transform: translateY(5px);
+}
+
+.hero_scroll {
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero_scroll p {
+    margin: 0;
+}
+
+.hero_scroll img {
+    animation: 2s hovering infinite;
+}
+
+.m-auto {
+    color: aliceblue;
+}
+
+
+
+/* game section */
+.games_Section {
+
+    background-image: url("./assets/the-games-bg.jpg");
+}
+
+.games_Title,
+.games_slider {
+    padding-top: 20px;
+}
+
+.games_Desc h4 {
+    font-size: 40px;
+}
+
+.games_Desc h4 {
+    letter-spacing: 4px;
+}
+
+
+.carousel {
+    display: flex;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: unset;
+    width: 7%;
+}
+
+.carousel-indicators button {
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: 1.6px !important;
+    margin-right: 1.6px !important;
+    border-radius: 50%;
+    background-color: unset !important;
+    border: 3.2px solid white !important;
+}
+
+.carousel-indicators .active {
+    background-color: white !important;
+}
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .container {
+        padding: 0 !important;
+    }
+
+    .nav-item {
+        padding-left: 16px;
+    }
+
+
+    .games_Title,
+    .games_slider {
+        width: 100% !important;
+    }
+
+
+
+}
