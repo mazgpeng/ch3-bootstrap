@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
 html {
   --orange: rgba(243, 175, 52, 1);
   --grey: rgba(141, 141, 141, 1);
@@ -44,7 +46,7 @@ main {
   grid-template-rows: repeat(5, minmax(100vh, 100vh));
 }
 
-/* Specific styling */
+/* nav */
 
 .cover_Background {
   background-size: cover;
@@ -81,7 +83,7 @@ main {
   border: unset;
 }
 
-/* Hero section */
+/* Hero */
 .hero_Section {
   background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
       rgba(255, 181, 72, 0) 0%,
@@ -144,21 +146,7 @@ main {
   animation: 2s hovering infinite;
 }
 
-@keyframes hovering {
-  0% {
-    width: 1rem;
-  }
-
-  50% {
-    width: 2rem;
-  }
-
-  100% {
-    width: 1rem;
-  }
-}
-
-/* Games section */
+/* Games  */
 .games_Section {
   background-image: url("./assets/img/the-games-bg.jpg");
 }
@@ -200,7 +188,7 @@ main {
   background-color: white !important;
 }
 
-/* Features section */
+/* Features */
 .features_Section {
   background-image: url("../Challenge1/assets/img/features.jpg");
   letter-spacing: 0.2em;
@@ -296,7 +284,7 @@ main {
   border-right: 1px solid #4d4c4c;
 }
 
-/* Top scores section */
+/* Top scores */
 .topscores_Section {
   background-image: url("./assets/img/bg-scores.jpg");
   background-position: top;
@@ -365,8 +353,8 @@ main {
   position: absolute;
   border-radius: 50%;
   background: var(--orange);
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   transform: translate(4px, 4px);
 }
 
@@ -385,7 +373,6 @@ main {
 }
 
 /* Footer section */
-/* Newsletter section */
 footer {
   min-height: 100vh;
 }
