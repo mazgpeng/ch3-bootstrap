@@ -1,4 +1,4 @@
-:root {
+html {
   --orange: rgba(243, 175, 52, 1);
   --grey: rgba(141, 141, 141, 1);
 }
@@ -275,7 +275,7 @@ main {
 
 .table_bg {
   padding: 0;
-  background-image: url("./../assets//images/table.png");
+  background-image: url("./assets/img/table.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
