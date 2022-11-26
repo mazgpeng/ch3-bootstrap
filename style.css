@@ -89,7 +89,7 @@ main {
       rgba(255, 181, 72, 0) 0%,
       rgba(52, 44, 29, 0.80319) 73.22%,
       #08090a 99.74%),
-    url("./assets/img/main-bg.jpg");
+    url("./assets/img/bg-image1.jpg");
   display: grid;
   grid-template-rows: 11fr 1fr;
 }
