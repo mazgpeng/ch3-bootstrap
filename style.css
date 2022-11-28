@@ -190,7 +190,7 @@ main {
 
 /* Features */
 .features_Section {
-  background-image: url("../Challenge1/assets/img/features.jpg");
+  background-image: url("./assets/img/features.jpg");
   letter-spacing: 0.2em;
 }
 
