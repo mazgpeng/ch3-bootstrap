@@ -90,7 +90,7 @@ main {
       rgba(255, 181, 72, 0) 0%,
       rgba(52, 44, 29, 0.80319) 73.22%,
       #08090a 99.74%),
-    url("/assets/img/main-bg.jpg");
+    url("../img/main-bg1.jpg");
   display: grid;
   grid-template-rows: 11fr 1fr;
 }
@@ -163,7 +163,7 @@ main {
 
 /* Games section */
 .games_Section {
-  background-image: url("/assets/img/the-games-bg.jpg");
+  background-image: url("../img/the-games-bg.jpg");
 }
 
 .games_Title,
@@ -205,7 +205,7 @@ main {
 
 /* Features section */
 .features_Section {
-  background-image: url("/assets/img/features.jpg");
+  background-image: url("../img/features.jpg");
   letter-spacing: 0.2em;
 }
 
@@ -259,7 +259,7 @@ main {
 
 /* Requirements section */
 .requirements_Section {
-  background-image: url("/assets/img/requirements.png");
+  background-image: url("../img/requirements.png");
   box-shadow: inset 400px 0px 1000px 200px rgb(0 0 0 / 90%);
 }
 
@@ -278,7 +278,7 @@ main {
 
 .table_bg {
   padding: 0;
-  background-image: url("/assets/img/table.png");
+  background-image: url("../img/table.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -301,7 +301,7 @@ main {
 
 /* Top scores section */
 .topscores_Section {
-  background-image: url("/assets/img/bg-scores.jpg");
+  background-image: url("../img/bg-scores.jpg");
   background-position: top;
 }
 
