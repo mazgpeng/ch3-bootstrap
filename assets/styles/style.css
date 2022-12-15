@@ -1,3 +1,4 @@
+/* Global Styling */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
 
 html {
@@ -46,7 +47,7 @@ main {
   grid-template-rows: repeat(5, minmax(100vh, 100vh));
 }
 
-/* nav */
+/* Specific styling */
 
 .cover_Background {
   background-size: cover;
@@ -83,13 +84,13 @@ main {
   border: unset;
 }
 
-/* Hero */
+/* Hero section */
 .hero_Section {
   background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
       rgba(255, 181, 72, 0) 0%,
       rgba(52, 44, 29, 0.80319) 73.22%,
       #08090a 99.74%),
-    url("./assets/img/bg-image1.jpg");
+    url("/assets/img/main-bg.jpg");
   display: grid;
   grid-template-rows: 11fr 1fr;
 }
@@ -146,9 +147,23 @@ main {
   animation: 2s hovering infinite;
 }
 
-/* Games  */
+@keyframes hovering {
+  0% {
+    width: 1rem;
+  }
+
+  50% {
+    width: 2rem;
+  }
+
+  100% {
+    width: 1rem;
+  }
+}
+
+/* Games section */
 .games_Section {
-  background-image: url("./assets/img/the-games-bg.jpg");
+  background-image: url("/assets/img/the-games-bg.jpg");
 }
 
 .games_Title,
@@ -188,9 +203,9 @@ main {
   background-color: white !important;
 }
 
-/* Features */
+/* Features section */
 .features_Section {
-  background-image: url("./assets/img/features.jpg");
+  background-image: url("/assets/img/features.jpg");
   letter-spacing: 0.2em;
 }
 
@@ -244,7 +259,7 @@ main {
 
 /* Requirements section */
 .requirements_Section {
-  background-image: url("./assets/img/requirements.png");
+  background-image: url("/assets/img/requirements.png");
   box-shadow: inset 400px 0px 1000px 200px rgb(0 0 0 / 90%);
 }
 
@@ -263,7 +278,7 @@ main {
 
 .table_bg {
   padding: 0;
-  background-image: url("./assets/img/table.png");
+  background-image: url("/assets/img/table.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -284,9 +299,9 @@ main {
   border-right: 1px solid #4d4c4c;
 }
 
-/* Top scores */
+/* Top scores section */
 .topscores_Section {
-  background-image: url("./assets/img/bg-scores.jpg");
+  background-image: url("/assets/img/bg-scores.jpg");
   background-position: top;
 }
 
@@ -353,8 +368,8 @@ main {
   position: absolute;
   border-radius: 50%;
   background: var(--orange);
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   transform: translate(4px, 4px);
 }
 
@@ -373,6 +388,7 @@ main {
 }
 
 /* Footer section */
+/* Newsletter section */
 footer {
   min-height: 100vh;
 }
@@ -460,3 +476,5 @@ footer {
 .footer_misc>a {
   margin: 0 0.5rem;
 }
+
+/* Additional Animation */
