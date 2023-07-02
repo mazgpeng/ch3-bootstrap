@@ -73,7 +73,7 @@ main {
   width: 20%;
 }
 
-.navbar-brand>span {
+.navbar-brand > span {
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -86,16 +86,18 @@ main {
 
 /* Hero section */
 .hero_Section {
-  background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
+  background-image: radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
       rgba(255, 181, 72, 0) 0%,
       rgba(52, 44, 29, 0.80319) 73.22%,
-      #08090a 99.74%),
+      #08090a 99.74%
+    ),
     url("../img/main-bg1.jpg");
   display: grid;
   grid-template-rows: 11fr 1fr;
 }
 
-.hero_Title>h1 {
+.hero_Title > h1 {
   line-height: 83px;
   letter-spacing: 3px;
 }
@@ -104,7 +106,7 @@ main {
   margin: 70px 0;
 }
 
-.hero_Desc>h3 {
+.hero_Desc > h3 {
   margin-top: 3rem;
   font-weight: 400;
   letter-spacing: 2px;
@@ -115,13 +117,13 @@ main {
   margin-top: 70px;
 }
 
-.hero_Button>button {
+.hero_Button > button {
   background: linear-gradient(194.68deg, #ffb548 11.27%, var(--orange) 90.4%);
   padding: 0;
   width: 100%;
 }
 
-.hero_Button>button>a {
+.hero_Button > button > a {
   display: block;
   padding: 0.9em;
   font-size: 1em;
@@ -129,7 +131,7 @@ main {
   color: black !important;
 }
 
-.hero_Button>button:active {
+.hero_Button > button:active {
   transform: translateY(5px);
 }
 
@@ -209,7 +211,7 @@ main {
   letter-spacing: 0.2em;
 }
 
-.features_Title>h1 {
+.features_Title > h1 {
   padding-bottom: 2rem;
 }
 
@@ -272,7 +274,7 @@ main {
   padding-bottom: 4rem;
 }
 
-.table_Content>h5 {
+.table_Content > h5 {
   color: var(--orange);
 }
 
@@ -368,8 +370,8 @@ main {
   position: absolute;
   border-radius: 50%;
   background: var(--orange);
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   transform: translate(4px, 4px);
 }
 
@@ -393,11 +395,11 @@ footer {
   min-height: 100vh;
 }
 
-.newsletter_Text>h2 {
+.newsletter_Text > h2 {
   font-size: 4rem;
 }
 
-.newsletter_Text>p {
+.newsletter_Text > p {
   font-size: x-large;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -408,7 +410,7 @@ footer {
   padding-bottom: 2rem;
 }
 
-.newsletter_Form>div {
+.newsletter_Form > div {
   position: relative;
   height: 3rem;
 }
@@ -473,7 +475,7 @@ footer {
   text-align: right;
 }
 
-.footer_misc>a {
+.footer_misc > a {
   margin: 0 0.5rem;
 }
 
